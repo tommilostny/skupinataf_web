@@ -1,0 +1,64 @@
+<script>
+
+function ShowModal(obrazek, text)
+{
+    document.getElementById("obrazek").src = obrazek;
+    document.getElementById("text").innerHTML = text;
+}
+
+</script>
+
+
+<!-- Modal -->
+<div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog zv-obr-dialog" role="document">
+        <div class="modal-content zv-obr">
+            <img class="img-responsive" src="" id="obrazek" />
+            <div class="row">
+                <div class="col-md-11 col-xs-9">
+                    <p><small id="text"></small></p>
+                </div>
+                <div class="col-md-1 col-xs-3">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Samotný článek -->
+
+<h1>
+    <img src="img/icons/active/clanky.png" alt="news icon" class="icon">
+    Činnost skupiny za 1. pololetí 2019 <!-- Nadpis článku -->
+</h1>
+<!-- Úvodní odstavec -->
+<p></p>
+<hr />
+<h2>1. Záznam svatebního dne</h2>
+<!-- Odstavec s obrázkem -->
+<div class="row">
+    <div class="col-md-8 col-xs-12">
+        <p></p>
+    </div>
+    <div class="col-md-4 col-xs-12">
+        <!-- ShowModal([cesta k obrázku], [popisek obrázku]) -->
+        <a onclick="ShowModal('', '')" data-toggle="modal" data-target="#modal" class="zv-obr-odkaz">
+            <!-- Cesta k obrázku v src -->
+            <img src="" class="img-responsive" />
+        </a>
+        <!-- Popisek obrázku do <small></small> -->
+        <p style="margin-top: 10px; text-align: center"><small></small></p>
+    </div>
+</div>
+<!-- Samostatný odstavec -->
+<p></p>
+<hr />
+
+
+
+<hr />
+<h2>Závěrem</h2>
+<p>
+    
+</p>

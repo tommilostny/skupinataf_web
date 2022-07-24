@@ -1,0 +1,223 @@
+<script>
+
+function ShowModal(obrazek, text)
+{
+    document.getElementById("obrazek").src = obrazek;
+    document.getElementById("text").innerHTML = text;
+}
+
+</script>
+
+
+<!-- Modal -->
+<div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog zv-obr-dialog" role="document">
+        <div class="modal-content zv-obr">
+            <img class="img-responsive" src="" id="obrazek" />
+            <div class="row">
+                <div class="col-md-11 col-xs-9">
+                    <p><small id="text"></small></p>
+                </div>
+                <div class="col-md-1 col-xs-3">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Samotný článek -->
+
+<h1>
+    <img src="img/icons/active/clanky.png" alt="news icon" class="icon">
+    Činnost skupiny za 1. pololetí 2019 <!-- Nadpis článku -->
+</h1>
+<!-- Úvodní odstavec -->
+<p>Naše skupina má za sebou vskutku náročný půlrok. Ani ne tak náročný na zpracovávané projekty, ale spíš na náš osobní život. V prvním pololetí jsme úspěšně absolvovali maturitu a přijímací zkoušky na vysoké školy. Zakončili jsme tak kapitolu života, která naši tvorbu zformovala asi nejvíc. Naše cesta nabrala směr, kterým se ubírá dodnes. Ač na videa v tuto dobu nezbylo mnoho času, přesto jsme se v něčem posunuli.</p>
+<hr />
+<h2>1. Ples první republiky</h2>
+<!-- Odstavec s obrázkem -->
+<div class="row">
+    <div class="col-md-8 col-xs-12">
+        <p>Naše spolupráce s Halahojem tento rok opět začala tradičním plesem s předáváním ocenění za celoroční práci v tomto studentském klubu. Letos se ples oblékl do stylu první republiky. Tomu také odpovídalo oblečení zúčastněných, výzdoba sálu i hudba, kterou celý večer reprodukovala skupina Swio. Kromě připomínání velkých kulatin naší republiky se taky slavilo to, že tento ples byl již desátý v řadě. My jsme u těchto plesů byli s kamerou již od sedmého ročníku v roce 2016 a pomalu už nám začínala docházet fantazie, co se na události, která po léta probíhá stejně, ještě dá vymyslet nového. Řekli jsme si tedy, že tento ples bude pro nás pracovně již poslední a za rok už se tam půjdeme jen bavit. Hlavní slovo při organizaci plesu odevzdala také nynější organizátorská skupina. Od příštího roku už to bude na mladších generacích.</p>
+    </div>
+    <div class="col-md-4 col-xs-12">
+        <!-- ShowModal([cesta k obrázku], [popisek obrázku]) -->
+        <a onclick="ShowModal('img/clanky/cinnost51.jpg', 'Ocenění Zlatá lavička')" data-toggle="modal" data-target="#modal" class="zv-obr-odkaz">
+            <!-- Cesta k obrázku v src -->
+            <img src="img/clanky/cinnost51.jpg" class="img-responsive" />
+        </a>
+        <!-- Popisek obrázku do <small></small> -->
+        <p style="margin-top: 10px; text-align: center"><small>Ocenění Zlatá lavička</small></p>
+    </div>
+</div>
+<!-- Samostatný odstavec -->
+<p>Co se týče vybavení na natáčení, letos jsme byli posíleni o stabilizaci a palačinkový objektiv. Oboje jsme na zrcadlovce hojně využili. Měli jsme k dispozici také náhradní baterii do tohoto zařízení, bohužel se však akumulátor vybil v nepravý čas, kdy se předávaly hlavní ceny v tombole. Museli jsme tak využít na několik záběrů kompakt, než jsme dokázali baterie přehodit.</p>
+<!-- Odstavec s obrázkem -->
+<div class="row">
+    <div class="col-md-8 col-xs-12">
+        <p>Naše spolupráce s Halahojem tento rok opět začala tradičním plesem s předáváním ocenění za celoroční práci v tomto studentském klubu. Letos se ples oblékl do stylu první republiky. Tomu také odpovídalo oblečení zúčastněných, výzdoba sálu i hudba, kterou celý večer reprodukovala skupina Swio. Kromě připomínání velkých kulatin naší republiky se taky slavilo to, že tento ples byl již desátý v řadě. My jsme u těchto plesů byli s kamerou již od sedmého ročníku v roce 2016 a pomalu už nám začínala docházet fantazie, co se na události, která po léta probíhá stejně, ještě dá vymyslet nového. Řekli jsme si tedy, že tento ples bude pro nás pracovně již poslední a za rok už se tam půjdeme jen bavit. Hlavní slovo při organizaci plesu odevzdala také nynější organizátorská skupina. Od příštího roku už to bude na mladších generacích.</p>
+    </div>
+    <div class="col-md-4 col-xs-12">
+        <br>
+        <!-- ShowModal([cesta k obrázku], [popisek obrázku]) -->
+        <a onclick="ShowModal('img/clanky/cinnost52.jpg', 'Dobové kostýmy na plese')" data-toggle="modal" data-target="#modal" class="zv-obr-odkaz">
+            <!-- Cesta k obrázku v src -->
+            <img src="img/clanky/cinnost52.jpg" class="img-responsive" />
+        </a>
+        <!-- Popisek obrázku do <small></small> -->
+        <p style="margin-top: 10px; text-align: center"><small>Dobové kostýmy na plese</small></p>
+    </div>
+</div>
+<p>Děkujeme Halahoji, že jsme mohli uzavřít naši sérii plesů zrovna takhle. Tímto dílem jsme potenciál plesů tohoto studentského klubu naprosto vyčerpali a jakýkoliv další sestřih už bychom brali za stereotypní.</p>
+<p>Záznam z 10. plesu Halahoje si můžete pustit zde: <a href="?s=filmy&view=ples-prvni-republiky">http://skupinataf.cz/?s=filmy&view=ples-prvni-republiky</a></p>
+<hr />
+<h2>2. Školní akademie</h2>
+<p>V prvním pololetí tohoto roku pokračovaly oslavy 25. výročí založení Katolického gymnázia. Slavilo se tak vlastně celý školní rok a ani přes blížící se maturitu jsme se práce, o kterou jsme byli požádáni, nevzdali. Po lodičkovém rekordu přišel březnový den, který je známý jako Slavnost školy.</p>
+<!-- Odstavec s obrázkem -->
+<div class="row">
+        <div class="col-md-8 col-xs-12">
+            <p>Konala se slavnostní školní akademie přesně 25 let ode dne, kdy se škola ustavila. Tuto akci, která se konala v Národním domě v Třebíči, jsme celou zaznamenávali ze dvou pohledů. První kamera pódium v ND snímala scénu z balkonu jako celek a druhá byla na boku podia a byla klíčová pro snímání zvuku. Celé pásmo trvalo okolo půl druhé hodiny a bohužel jsme se během natáčení nevyhnuli několika chybám a problémům s první kamerou. Nedokázali jsme si včas správně poladit vyvážení bílé, takže někteří vystupující byli dost přesvětleni a nebylo jim vidět do obličeje. Na konci přišel problém s kapacitou paměťové karty. Všechny tyto problémy naštěstí dokázala vyřešit boční kamera. Záznam z akce jsme předali ještě před Velikonoci škole a ta ho poté zveřejnila na svůj YouTube kanál.</p>
+        </div>
+        <div class="col-md-4 col-xs-12">
+            <!-- ShowModal([cesta k obrázku], [popisek obrázku]) -->
+            <a onclick="ShowModal('img/clanky/cinnost53.jpg', 'Zahájení Slavnosti školy')" data-toggle="modal" data-target="#modal" class="zv-obr-odkaz">
+                <!-- Cesta k obrázku v src -->
+                <img src="img/clanky/cinnost53.jpg" class="img-responsive" />
+            </a>
+            <!-- Popisek obrázku do <small></small> -->
+            <p style="margin-top: 10px; text-align: center"><small>Zahájení Slavnosti školy</small></p>
+        </div>
+    </div>
+<p>A zde se na něj můžete podívat: <a href="https://youtu.be/bFuJlTLhbJU" target="_blank">https://youtu.be/bFuJlTLhbJU</a></p>
+<hr />
+<h2>3.  Otevření nové budovy KG</h2>
+<div class="row">
+        <div class="col-md-8 col-xs-12">
+            <p>V rámci Slavnosti školy se konalo také slavnostní otevření nové budovy Katolického gymnázia. Ta vznikla během dvou let a nahradila spíše provizorní jednopodlažní budovu C, ve které sídlilo mnoho odborných učeben a laboratoří. Celý proces stavby sledovala bezpečnostní CCTV kamera, ze které poté vedení školy vytáhlo záznam a udělala šestiminutový timelapse. Na jeho konci už stála dvoupatrová moderní budova připravená na budoucí výuku.</p>
+            <p>Otevření budovy jako takové se neobešlo bez proslovů osobností školy, vedoucích projektu a zástupců města. Proběhlo požehnání od otce biskupa z Biskupství brněnského. Poté již byla přestřižena páska a prohlídka interiérů mohla začít.</p>
+        </div>
+        <div class="col-md-4 col-xs-12">
+            <!-- ShowModal([cesta k obrázku], [popisek obrázku]) -->
+            <a onclick="ShowModal('img/clanky/cinnost55.jpg', 'Hosté otevírání budovy')" data-toggle="modal" data-target="#modal" class="zv-obr-odkaz">
+                <!-- Cesta k obrázku v src -->
+                <img src="img/clanky/cinnost55.jpg" class="img-responsive" />
+            </a>
+            <!-- Popisek obrázku do <small></small> -->
+            <p style="margin-top: 10px; text-align: center"><small>Hosté otevírání budovy</small></p>
+        </div>
+</div>
+<p>Natáčení tohoto aktu bylo složité především v tom, že se konalo bezprostředně po školní akademii. S plnými paměťovými kartami bylo nutné provést krizový plán, který spočíval v tom, že se natočené soubory musí někam přesunout. Konkrétně se jednalo o počítač jednoho z kantorů. Poté se musela vyměnit baterka v zrcadlovce, přehodit 18-55mm objektiv na 24mm (palačinkový), připevnit zařízení na stabilizaci a provést testy stability. Až když bylo toto vše dokončeno, mohlo se natáčet.</p>
+<div class="row">
+        <div class="col-md-8 col-xs-12">
+            <p>Vše proběhlo hladce, proslovy jsem zachytil celé na případné vystřihávání shrnujících vět (jako tomu bylo v reportáži z lodičkového rekordu). Natáčení v budově bylo horší. Už tam jsem zjistil, že budu potřebovat na snímání interiéru klid. V tu chvíli jsem neměl moc času, takže jsem po pár záběrech musel odejít. </p>
+            <p>Později jsem se ve škole dožadoval poskytnutí vstupu do budovy, ale ten jsem dlouhou dobu nemohl dostat. Škola se k mému projektu stavěla neutrálně až lhostejně. Nebyl zde vidět žádný zájem o další video, které by šlo použít na propagaci instituce. Přesto jsem se svépomocí pokoušel v budově natáčet a hotové sestříhané video jsem předložil po maturitě v polovině června. Škola na mé zprávy přestala reagovat a video se oficiálního zveřejnění nedočkalo. O několik dní později jsme s videem šli ven sami.</p>
+        </div>
+        <div class="col-md-4 col-xs-12">
+            <br>
+            <!-- ShowModal([cesta k obrázku], [popisek obrázku]) -->
+            <a onclick="ShowModal('img/clanky/cinnost56.jpg', 'Nová budova KG')" data-toggle="modal" data-target="#modal" class="zv-obr-odkaz">
+                <!-- Cesta k obrázku v src -->
+                <img src="img/clanky/cinnost56.jpg" class="img-responsive" />
+            </a>
+            <!-- Popisek obrázku do <small></small> -->
+            <p style="margin-top: 10px; text-align: center"><small>Nová budova KG</small></p>
+        </div>
+</div>
+<p>Na našem kanále lze video nalézt zde: <a href="?s=filmy&view=otevreni-nove-budovy-kg">http://skupinataf.cz/?s=filmy&view=otevreni-nove-budovy-kg</a></p>
+<p>Z této negativní zkušenosti jsme usoudili, že už o nás není zájem. Natáčeli jsme ještě na jedné školní akci , ale rozhodli jsme se, že ji nezpracujeme. Nebudeme vkládat síly někam, kde už to nemá význam.</p>
+<hr>
+<h2>4. Divadlo v Předíně</h2>
+<div class="row">
+        <div class="col-md-8 col-xs-12">
+            <p>Rok se sešel s rokem a byly tu zase Velikonoce. Před třemi lety předínští ochotníci obnovili svoji tradici a i letos uvedli nové divadelní představení. Tentokrát s názvem Bezkontaktní ženy. Název napovídá, že se jednalo o něco modernější představení. Odehrávalo se na jednom statku a vtipně ukazovalo slabé muže, kteří chtěli statek pod tlakem lobbistů rozprodat. Narazí však na odpor manželek, které se rozhodnou vzít spravedlnost do vlastních rukou.</p>
+            <p>Na natáčení divadla v Předíně jsme byli pozváni už podruhé v řadě. Neskutečně jsme si toho cenili. To už pro nás něco znamenalo. Tentokrát jsme si na natáčení pořídili vlastní diktafon, který jsme zavěsili na stejné místo k podiu jako loni. Natáčeli jsme beze změny na dvě kamery, ale mnohem více jsme využívali materiál z té první. Druhá kamera již netočila z boku, ale také zepředu. Když vypadl obraz na první, mohli jsme ho tak téměř beze změny perspektivy nahradit.</p>
+            <p>Trochu nás překvapil pohyb jedné z postav pod podiem, kam nebyla zaměřena ani jedna kamera. Stativy byly napevno utažené, takže jsme s tím během divadla již nemohli nic dělat. </p>
+            <p>Jinak vše proběhlo standardně a bez problémů. Na počátku června jsme hotový záznam odevzdali. Budeme moc rádi, když se do kulturního domu budeme moci vrátit i příští rok. Neskutečně si to užíváme. Hlavně proto, že je vždycky nad čím žasnout a nad čím se bavit.</p>
+        </div>
+        <div class="col-md-4 col-xs-12">
+            <br>
+            <!-- ShowModal([cesta k obrázku], [popisek obrázku]) -->
+            <a onclick="ShowModal('img/clanky/cinnost57.jpg', 'Natáčení divadla')" data-toggle="modal" data-target="#modal" class="zv-obr-odkaz">
+                <!-- Cesta k obrázku v src -->
+                <img src="img/clanky/cinnost57.jpg" class="img-responsive" />
+            </a>
+            <!-- Popisek obrázku do <small></small> -->
+            <p style="margin-top: 10px; text-align: center"><small>Natáčení divadla</small></p>
+        </div>
+</div>
+<hr>
+<h2>5. Festival Kostkohraní</h2>
+<div class="row">
+        <div class="col-md-8 col-xs-12">
+            <p>S nápadem vytvořit festival zaměřený na různé typy stolních her, kostek, zábvného poznávání za námi přišel Vítek Oplatek (hlavní osoba studentkého klubu Halahoj) už v listopadu. Tehdy nám svůj nápad podrobně popsal a poprosil nás, jestli bychom mu nevytvořili pro tuto akci s názvem Kostkohraní webové stránky. Jedním dechem dodal, že by bylo fajn následně i celou akci natočit. </p>
+            <p>Na webu jsme nepřetržitě pracovali až do března, kdy se akce konala. Sestavili jsme grafickou podobu webu, přidávali sponzory a vystavovatele, vkládali jsme podmínky. Skrze tento web a Instagramový účet jsme poté rodiče s dětmi na akci zvali.</p>
+        </div>
+        <div class="col-md-4 col-xs-12">
+            <!-- ShowModal([cesta k obrázku], [popisek obrázku]) -->
+            <a onclick="ShowModal('img/clanky/cinnost58.jpg', 'Jedna z místností, kde se akce konala')" data-toggle="modal" data-target="#modal" class="zv-obr-odkaz">
+                <!-- Cesta k obrázku v src -->
+                <img src="img/clanky/cinnost58.jpg" class="img-responsive" />
+            </a>
+            <!-- Popisek obrázku do <small></small> -->
+            <p style="margin-top: 10px; text-align: center"><small>Jedna z místností, kde se akce konala</small></p>
+        </div>
+</div>
+<div class="row">
+        <div class="col-md-8 col-xs-12">
+            <p>Akce se konala hned po Slavnosti školy na KG, takže jsme za den museli všechno nabít, vyčistit paměti a připravit na další den. Natáčeli jsme klasicky ve dvou. Jeden  z nás měl zrcadlovku na stabilizaci a druhý kompakt. Ze záběrů z jednoho celého dne jsme poté sestavili sestřih.</p>
+            <p>Výběr hudby do tohoto sestřihu byl asi ten nejtěžší úkon, který jsme podstoupili. Hudba musela sedět do naší tvorby a zároveň musela odpovídat cílové skupině (rodiče s dětmi). </p>
+            <p>Sestřih byl v červnu úspěšně zpracován a je připraven pro propagaci akce. Již nyní se na něj lze podívat na oficiálních stránkách Kostkohraní: <a href="http://kostkohrani.halahoj.org/" target="_blank">http://kostkohrani.halahoj.org/</a></p>
+        </div>
+        <div class="col-md-4 col-xs-12">
+            <!-- ShowModal([cesta k obrázku], [popisek obrázku]) -->
+            <a onclick="ShowModal('img/clanky/cinnost59.jpg', 'Výtvarná dílna')" data-toggle="modal" data-target="#modal" class="zv-obr-odkaz">
+                <!-- Cesta k obrázku v src -->
+                <img src="img/clanky/cinnost59.jpg" class="img-responsive" />
+            </a>
+            <!-- Popisek obrázku do <small></small> -->
+            <p style="margin-top: 10px; text-align: center"><small>Výtvarná dílna</small></p>
+        </div>
+</div>
+<hr>
+<h2>6. Natáčení ve Velké Británii</h2>
+<div class="row">
+        <div class="col-md-8 col-xs-12">
+                <p>Tento rok je rovněž významný tím, že jsme se tentokrát vydali za hranice České republiky, a to do Velké Británie. Pod záštitou zájezdu „Řev motorů a vůně benzínu“, organizovaného Střední průmyslovou školou Třebíč a CK Royal, se na konci března Tom z naší skupiny, i přes blížící se maturitní zkoušky, do této významné a překrásné země vydal.</p>
+            <p>První zastávkou bylo majestátní hlavní město Spojeného království Londýn. Strávili jsme den prohlídkou města, navštívili jsme spoustu slavných míst a památek od slavného Londýnského Oka přes budovu parlamentu, Toweru, Buckinghamského paláce až stadion fotbalového klubu Chelsea. Většinu času jsme následně strávili v blízkosti města Birmingham, kde jsme bydleli u hostitelských rodin.</p>
+        </div>
+        <div class="col-md-4 col-xs-12">
+            <!-- ShowModal([cesta k obrázku], [popisek obrázku]) -->
+            <a onclick="ShowModal('img/clanky/cinnost510.png', 'Tradiční telefonní budka v Londýně, typická pro Velkou Británii')" data-toggle="modal" data-target="#modal" class="zv-obr-odkaz">
+                <!-- Cesta k obrázku v src -->
+                <img src="img/clanky/cinnost510.png" class="img-responsive" />
+            </a>
+            <!-- Popisek obrázku do <small></small> -->
+            <p style="margin-top: 10px; text-align: center"><small>Tradiční telefonní budka v Londýně, typická pro Velkou Británii</small></p>
+        </div>
+</div>
+<div class="row">
+        <div class="col-md-8 col-xs-12">
+            <p>Dalším významným místem byl slavný okruh Silverstone, ze kterého již máme sestříhaný záznam, zde. Na okruhu jsme byli provedeni historií okruhu, nahlédli jsme do kontrolních místností, odkud jsou závody řízeny a také jsme mohli sledovat auta jezdící po okruhu během probíhajícího Track day. Toto bylo rozhodně nejzajímavější a nejakčnější ze všech míst, co jsme navštívili, a proto jsme z něj chtěli vydat video co nejdříve.</p>
+            <p>Z dalších zajímavých míst lze zmínit Imperiální válečné muzeum v Duxfordu, historické bojové lodě Victory a Warrior z přístavu Portsmouth a univerzitní město Cambridge. Nepochybně byla během tohoto programem nabitého týdne natočena spousta zajímavého materiálu a máme tedy mnoho možných námětů na videa z vlastní tvorby do druhé poloviny tohoto roku.</p>
+        </div>
+        <div class="col-md-4 col-xs-12">
+            <!-- ShowModal([cesta k obrázku], [popisek obrázku]) -->
+            <a onclick="ShowModal('img/clanky/cinnost511.jpg', 'Miniatura záznamu z okruhu Silverstone')" data-toggle="modal" data-target="#modal" class="zv-obr-odkaz">
+                <!-- Cesta k obrázku v src -->
+                <img src="img/clanky/cinnost511.jpg" class="img-responsive" />
+            </a>
+            <!-- Popisek obrázku do <small></small> -->
+            <p style="margin-top: 10px; text-align: center"><small>Miniatura záznamu z okruhu Silverstone</small></p>
+        </div>
+</div>
+<p>Silverstone je k přehrání zde: <a href="?s=filmy&view=silverstone">http://skupinataf.cz/?s=filmy&view=silverstone</a></p>
+<hr>
+<h2>7. Změna názvu</h2>
+<p>Během několika posledních měsíců jsme si stále víc uvědomovali, že změna oficiálního názvu skupiny je opravdu nutná. Chtěli bychom vám předat důvody proč k ní tento měsíc došlo. </p>
+<p>Problém jsme měli s vysvětlením zkratky T&F, která zahrnovala naše přezdívky z doby, když jsme pod nimi tvořili samostatně na YouTube. Bylo to tak proto, abychom nalákali na nový projekt své staré fanoušky a jméno nového uskupení mělo pro ně průhledný původ. Tento cíl se nám nepodařil, ale jméno „Tvůrčí skupina Toma & Frankího“ nám zůstalo. Pokud bychom se chtěli posunout dál a vytvořit marketingově přívětivější (kratší) název a navíc působit trochu seriózněji, museli bychom přezdívky Tom a Frankí vypustit. A to se stalo. </p>
+<p> Na YouTube v tichosti změna jména na „Tvůrčí skupina T&F“ již proběhla dříve. U videí jsme ji do závěrečných titulků zařadili teprve letos. S Facebookem jsme ohledně názvu bojovali dlouhé týdny. Asi pětkrát byla změna názvu zamítnula, ale napošesté se stejným návrhem byla změna akceptována. Vypadalo to tedy jako loterie, ale nakonec se dílo podařilo.</p>
+<p>Nyní tedy zkratka T&F znamená pouze iniciály našich křestních jmen. Více již ji netřeba vysvětlovat. Změna to není velká. Tyto iniciály máme v logu s čočkou již od počátku. Název „Tvůrčí skupina T&F“ už nebude mít svoji dlouhou verzi.</p>
+<hr>
+<h2>8. Budoucnost skupiny do dalších let</h2>
+<p>Co se týče budoucnosti naší tvůrčí dvojice do dalších let, je to ve hvězdách. Jisté obrysy už však známe teď. Oba budeme navštěvovat vysoké školy v Brně a je tedy i možné, že zde seženeme byt a budeme spolupracovat intenzivněji než kdy předtím. Kromě začátku na nové škole nás ale čeká spoustu nového i v našich projektech v 2. pololetí, které již odstartovalo. Buďte stále s námi. Bude to stát za to.</p>

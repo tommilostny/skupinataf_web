@@ -1,0 +1,8 @@
+RewriteEngine On
+#RewriteCond %{HTTPS} off [NC]
+#RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301,QSA]
+
+RewriteRule ^filmy\/$ index.php?s=filmy [L,QSA]
+RewriteRule ^clanky\/$ index.php?s=clanky [L,QSA]
+RewriteRule ^main\/$ index.php [L,QSA]
+RewriteRule ^o-nas\/$ index.php?s=o-nas [L,QSA]
