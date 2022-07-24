@@ -142,7 +142,7 @@
         <br /><br />
         <p>© T&F Creative Group</p>
         <p>
-          <small>v. 2.4.2</small> <span style="color:gray">|</span> <small><a href="?s=changelog" target="_top">Historie webu</a></small> <span style="color:gray">|</span> <small><a href="https://icons8.com/" target="_blank">Icons8</a></small>
+          <small>v. 2.4.3</small> <span style="color:gray">|</span> <small><a href="?s=changelog" target="_top">Historie webu</a></small> <span style="color:gray">|</span> <small><a href="https://icons8.com/" target="_blank">Icons8</a></small>
           <br />
           <small>Created and maintained by Tomáš Milostný 2017-<?php echo date("Y"); ?></small>
         </p>
