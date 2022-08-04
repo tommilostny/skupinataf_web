@@ -1,0 +1,67 @@
+RewriteEngine On
+
+RewriteRule ^$ index.php?page=main [QSA,L]
+
+RewriteRule ^filmy$ index.php?page=videos [L,QSA]
+RewriteRule ^videa$ index.php?page=videos [L,QSA]
+RewriteRule ^videos$ index.php?page=videos [L,QSA]
+
+RewriteRule ^filmy\/search\/([^\/]*)\/$ index.php?page=videos&search=$1 [L,QSA]
+RewriteRule ^filmy\/search\/(.*)$ index.php?page=videos&search=$1 [L,QSA]
+
+RewriteRule ^filmy\/hledat\/([^\/]*)\/$ index.php?page=videos&search=$1 [L,QSA]
+RewriteRule ^filmy\/hledat\/(.*)$ index.php?page=videos&search=$1 [L,QSA]
+
+RewriteRule ^filmy\/([^\/]*)\/$ index.php?page=videos&view=$1 [L,QSA]
+RewriteRule ^filmy\/(.*)$ index.php?page=videos&view=$1 [L,QSA]
+
+RewriteRule ^videa\/search\/([^\/]*)\/$ index.php?page=videos&search=$1 [L,QSA]
+RewriteRule ^videa\/search\/(.*)$ index.php?page=videos&search=$1 [L,QSA]
+
+RewriteRule ^videa\/hledat\/([^\/]*)\/$ index.php?page=videos&search=$1 [L,QSA]
+RewriteRule ^videa\/hledat\/(.*)$ index.php?page=videos&search=$1 [L,QSA]
+
+RewriteRule ^videa\/([^\/]*)\/$ index.php?page=videos&view=$1 [L,QSA]
+RewriteRule ^videa\/(.*)$ index.php?page=videos&view=$1 [L,QSA]
+
+RewriteRule ^videos\/search\/([^\/]*)\/$ index.php?page=videos&search=$1 [L,QSA]
+RewriteRule ^videos\/search\/(.*)$ index.php?page=videos&search=$1 [L,QSA]
+
+RewriteRule ^videos\/([^\/]*)\/$ index.php?page=videos&view=$1 [L,QSA]
+RewriteRule ^videos\/(.*)$ index.php?page=videos&view=$1 [L,QSA]
+
+RewriteRule ^o-nas\/$ index.php?page=o-nas [L,QSA]
+RewriteRule ^o-nas$ index.php?page=o-nas [L,QSA]
+RewriteRule ^onas\/$ index.php?page=o-nas [L,QSA]
+RewriteRule ^onas$ index.php?page=o-nas [L,QSA]
+RewriteRule ^about\/$ index.php?page=o-nas [L,QSA]
+RewriteRule ^about$ index.php?page=o-nas [L,QSA]
+RewriteRule ^about-us\/$ index.php?page=o-nas [L,QSA]
+RewriteRule ^about-us$ index.php?page=o-nas [L,QSA]
+RewriteRule ^aboutus\/$ index.php?page=o-nas [L,QSA]
+RewriteRule ^aboutus$ index.php?page=o-nas [L,QSA]
+
+RewriteRule ^o-nas\/milniky$ index.php?page=o-nas&view=milniky [L,QSA]
+RewriteRule ^o-nas\/nase-dulezite-milniky$ index.php?page=o-nas&view=milniky [L,QSA]
+RewriteRule ^onas\/milniky$ index.php?page=o-nas&view=milniky [L,QSA]
+RewriteRule ^onas\/nase-dulezite-milniky$ index.php?page=o-nas&view=milniky [L,QSA]
+
+RewriteRule ^o-nas\/milniky\/$ index.php?page=o-nas&view=milniky [L,QSA]
+RewriteRule ^o-nas\/nase-dulezite-milniky\/$ index.php?page=o-nas&view=milniky [L,QSA]
+RewriteRule ^onas\/milniky\/$ index.php?page=o-nas&view=milniky [L,QSA]
+RewriteRule ^onas\/nase-dulezite-milniky\/$ index.php?page=o-nas&view=milniky [L,QSA]
+
+RewriteRule ^changelog$ index.php?page=changelog [L,QSA]
+RewriteRule ^changelog\/$ index.php?page=changelog [L,QSA]
+RewriteRule ^history$ index.php?page=changelog [L,QSA]
+RewriteRule ^history\/$ index.php?page=changelog [L,QSA]
+RewriteRule ^historie$ index.php?page=changelog [L,QSA]
+RewriteRule ^historie\/$ index.php?page=changelog [L,QSA]
+RewriteRule ^historie-webu$ index.php?page=changelog [L,QSA]
+RewriteRule ^historie-webu\/$ index.php?page=changelog [L,QSA]
+RewriteRule ^historiewebu$ index.php?page=changelog [L,QSA]
+RewriteRule ^historiewebu\/$ index.php?page=changelog [L,QSA]
+RewriteRule ^webhistory$ index.php?page=changelog [L,QSA]
+RewriteRule ^webhistory\/$ index.php?page=changelog [L,QSA]
+RewriteRule ^web-history$ index.php?page=changelog [L,QSA]
+RewriteRule ^web-history\/$ index.php?page=changelog [L,QSA]
